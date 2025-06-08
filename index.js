@@ -8,7 +8,7 @@ const io = new Server(httpServer);
 
 const port = process.env.PORT || 3000;
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(import.meta.dirname + '/public'));
 
 function onConnection(socket) {
   socket.on('drawing', data => socket.broadcast.emit('drawing', data));
