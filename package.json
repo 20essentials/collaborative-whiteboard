@@ -1,0 +1,19 @@
+{
+  "name": "collaborative-whiteboard",
+  "version": "1.0.0",
+  "description": "A simple collaborative whiteboard using socket.io",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "socket.io",
+    "collaborative-whiteboard"
+  ],
+  "dependencies": {
+    "express": "~4.17.1",
+    "socket.io": "4.0.0"
+  },
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "license": "MIT"
+}
